@@ -1,0 +1,104 @@
+body {
+font-family: Roboto;
+color: #212121;
+
+}
+li {
+    list-style: none;
+}
+/* шапка профиля */
+.page-header {
+    background-color: fffff;
+}   
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.nav-link a:focus,
+.nav-link a:hover {
+color: #2196F3;
+font-style: normal;
+font-weight: 500;
+}
+.mail a:focus,
+.mail a:hover {
+    color: #2196F3;
+}
+ .mail a {
+     color:#757575 ;
+ }
+ /* заголовок */
+.hero {
+    background-color: #2F303A;
+}
+.title {
+    color: #FFFFFF;
+}
+
+.btn {
+    color: #2196F3;
+    cursor: pointer;
+}
+.buttons {
+    background-color:#F5F4FA;
+    cursor: pointer;
+   
+}
+.buttons:hover,
+.buttons :focus {
+   background-color: #2196F3;
+color: #FFFFFF;
+}
+.btn-text {
+    color: #FFFFFF;
+}
+/* особливості */
+.hang{
+    background-color: #E5E5E5;
+}
+.text {
+    color: #757575;
+}
+/* чим займається компанія */
+.company {
+    background-color: #E5E5E5;
+}
+
+/* команда */
+.item {
+    background-color: #F5F4FA;
+}
+.subtitle {
+    color: #757575;
+}
+/* підвал-сторінки */
+footer {
+    background-color: #2F303A;
+    
+}
+.map a {
+    color: #FFFFFF;
+}
+.link {
+    color: #FFFFFF99;
+}
+.map a,:hover
+.map a,:focus {
+color: #2196F3;
+}
+.link:hover
+.link:focus {
+    color: #2196F3;
+}
+/* 2-сторінка */
+.item-images {
+    background-color: #E5E5E5;
+}
+.list-items {
+    background-color: #FFFFFF;
+}
