@@ -8,22 +8,20 @@ li {
 }
 /* шапка профиля */
 .page-header {
-    background-color:#FFFFFF;
-}   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
 .logo {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-letter-spacing: 0.03em;
 color: #2196F3;
 }
 .nav-link a:focus,
 .nav-link a:hover {
 color: #2196F3;
-font-style: normal;
-font-weight: 500;
 }
 .mail a:focus,
 .mail a:hover {
@@ -33,12 +31,26 @@ font-weight: 500;
      color:#757575 ;
  }
  /* заголовок */
-.hero {
-    background-color: #2F303A;
-}
+
 .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
     color: #FFFFFF;
 }
+/* кнопка 1 */
+.button-one {
+    background-color: #2196F3;
+    color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* .button-one:focus,
+.button-one:hover {
+    background-color: #2196F3;
+    color: #FFFFFF; */
 
 .btn {
     color: #2196F3;
@@ -47,61 +59,71 @@ font-weight: 500;
 .buttons {
     background-color:#F5F4FA;
     cursor: pointer;
-   
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
 }
 .buttons:hover,
 .buttons:focus {
    background-color: #2196F3;
 color: #FFFFFF;
 }
-.btn-text { 
-    color: #FFFFFF;
-}
 /* особливості */
 .shadow {
     font-size: 0;
 }
-.hang{
-    background-color: #E5E5E5;
+.caption {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 }
+
 .text {
+    font-size: 14px;
+    line-height: 24px;
     color: #757575;
 }
 /* чим займається компанія */
-.company {
-    background-color: #E5E5E5;
+.subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
 }
-
 /* команда */
-.item {
-    background-color: #F5F4FA;
+.heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 .subtitle {
+    font-size: 16px;
+    line-height: 19px;
     color: #757575;
 }
 /* підвал-сторінки */
-footer {
-    background-color: #2F303A;
-    
-}
-.map a {
-    color: #FFFFFF;
-}
-.link {
-    color: #FFFFFF99;
+.map {
+    font-size: 14px;
+    line-height: 24px;
 }
 .map a:hover,
 .map a:focus {
 color: #2196F3;
+}
+.contakt {
+    font-size: 14px;
+    line-height: 24px;
 }
 .contakt:hover,
 .contakt:focus {
 color: #2196F3;
 }
 /* 2-сторінка */
-.item-images {
-    background-color: #E5E5E5;
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
 }
-.list-items {
-    background-color: #FFFFFF;
+.place {
+    font-size: 16px;
+    line-height: 30px;
 }
