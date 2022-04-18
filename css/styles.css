@@ -50,11 +50,11 @@ font-weight: 500;
    
 }
 .buttons:hover,
-.buttons :focus {
+.buttons:focus {
    background-color: #2196F3;
 color: #FFFFFF;
 }
-.btn-text {
+.btn-text { 
     color: #FFFFFF;
 }
 /* особливості */
@@ -91,9 +91,9 @@ footer {
 .map a:focus {
 color: #2196F3;
 }
-.contakt:hover,  
+.contakt:hover,
 .contakt:focus {
-    color: #2196F3;
+color: #2196F3;
 }
 /* 2-сторінка */
 .item-images {
