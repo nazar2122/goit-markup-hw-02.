@@ -58,6 +58,9 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 /* особливості */
+.shadow {
+    font-size: 0;
+}
 .hang{
     background-color: #E5E5E5;
 }
