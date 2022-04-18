@@ -29,7 +29,7 @@ font-weight: 500;
 .mail a:hover {
     color: #2196F3;
 }
- .mail a {
+ .mail, a {
      color:#757575 ;
  }
  /* заголовок */
@@ -87,12 +87,12 @@ footer {
 .link {
     color: #FFFFFF99;
 }
-.map a,:hover
-.map a,:focus {
+.map a:hover,
+.map a:focus {
 color: #2196F3;
 }
-.link:hover
-.link:focus {
+.contakt:hover,  
+.contakt:focus {
     color: #2196F3;
 }
 /* 2-сторінка */
