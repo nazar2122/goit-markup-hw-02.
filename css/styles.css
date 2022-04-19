@@ -1,54 +1,54 @@
 body {
-font-family: Roboto,'Segoe UI';
-color: #212121;
-
+  font-family: Roboto, "Segoe UI";
+  color: #212121;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 /* шапка профиля */
 .page-header {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .logo {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-color: #2196F3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
 }
 .nav-link a:focus,
 .nav-link a:hover {
-color: #2196F3;
+  color: #2196f3;
 }
 .mail a:focus,
 .mail a:hover {
-    color: #2196F3;
+  color: #2196f3;
 }
- .mail, a {
-     color:#757575 ;
- }
- /* заголовок */
+.mail,
+a {
+  color: #757575;
+}
+/* заголовок */
 
 .title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
 }
 /* кнопка 1 */
 .button-one {
-    background-color: #2196F3;
-    color: #F5F4FA;
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+  background-color: #2196f3;
+  color: #f5f4fa;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 /* .button-one:focus,
 .button-one:hover {
@@ -56,83 +56,83 @@ color: #2196F3;
     color: #FFFFFF; */
 
 .btn {
-    color: #2196F3;
-    cursor: pointer;
+  color: #2196f3;
+  cursor: pointer;
 }
 .buttons {
-    background-color:#F5F4FA;
-    cursor: pointer;
-    font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 .buttons:hover,
 .buttons:focus {
-   background-color: #2196F3;
-color: #FFFFFF;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 /* особливості */
 .shadow {
-    font-size: 0;
+  font-size: 0;
 }
 .caption {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .text {
-    font-size: 14px;
-    line-height: 24px;
-    color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
 }
 /* чим займається компанія */
 .subject {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 /* команда */
 .heading {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 .subtitle {
-    font-size: 16px;
-    line-height: 19px;
-    color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
 }
 /* підвал-сторінки */
 .map {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 .map a:hover,
 .map a:focus {
-color: #2196F3;
+  color: #2196f3;
 }
 .contakt {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 .contakt:hover,
 .contakt:focus {
-color: #2196F3;
+  color: #2196f3;
 }
 /* 2-сторінка */
 .project {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
 }
 .place {
-    font-size: 16px;
-    line-height: 30px;
+  font-size: 16px;
+  line-height: 30px;
 }
