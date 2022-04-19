@@ -143,6 +143,16 @@ li {
   color: var(--primary-text-p-color);
 }
 /* підвал-сторінки */
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
 .map-googl {
   color: var(--primary-button-text-color);
   font-style: normal;
