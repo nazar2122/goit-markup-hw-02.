@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-touch-color: #2196f3;
+  --primary-button-text-color: #ffffff;
+  --primary-text-p-color: #757575;
+}
+
 body {
   font-family: Roboto, "Segoe UI";
   color: #212121;
@@ -21,15 +28,15 @@ li {
 }
 .nav-link a:focus,
 .nav-link a:hover {
-  color: #2196f3;
+  color: var(--primary-touch-color);
 }
 .mail a:focus,
 .mail a:hover {
-  color: #2196f3;
+  color: var(--primary-touch-color);
 }
 .mail,
 a {
-  color: #757575;
+  color: var(--primary-text-p-color);
 }
 /* заголовок */
 
@@ -38,12 +45,12 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: var(--primary-button-text-color);
 }
 /* кнопка 1 */
 .button-one {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--primary-button-text-color);
   cursor: pointer;
   font-style: normal;
   font-weight: 700;
@@ -54,11 +61,6 @@ a {
 .button-one:hover {
     background-color: #2196F3;
     color: #FFFFFF; */
-
-.btn {
-  color: #2196f3;
-  cursor: pointer;
-}
 .buttons {
   background-color: #f5f4fa;
   cursor: pointer;
@@ -69,8 +71,8 @@ a {
 }
 .buttons:hover,
 .buttons:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--primary-touch-color);
+  color: var(--primary-button-text-color);
 }
 /* особливості */
 .shadow {
