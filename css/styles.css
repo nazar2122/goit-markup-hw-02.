@@ -103,7 +103,7 @@ li {
   color: var(--primary-text-p-color);
 }
 /* чим займається компанія */
-.subject {
+.subject-company {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -112,6 +112,14 @@ li {
   letter-spacing: 0.03em;
 }
 /* команда */
+.subject {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .heading {
   color: var(--primary-text-color);
   font-style: normal;
