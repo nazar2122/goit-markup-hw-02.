@@ -2,6 +2,7 @@
   --primary-text-color: #212121;
   --primary-touch-color: #2196f3;
   --primary-button-text-color: #ffffff;
+  --primary-background-color: #f5f4fa;
   --primary-text-p-color: #757575;
 }
 
@@ -17,25 +18,43 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+}
+.logo-accent {
+  color: var(--primary-touch-color);
 }
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
-.nav-link a:focus,
-.nav-link a:hover {
+.navigation.current {
   color: var(--primary-touch-color);
 }
-.mail a:focus,
-.mail a:hover {
+.navigation {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navigation:focus,
+.navigation:hover {
   color: var(--primary-touch-color);
 }
-.mail,
-a {
+
+.mail-header:focus,
+.mail-header:hover {
+  color: var(--primary-touch-color);
+}
+.mail-header {
+  text-decoration: none;
   color: var(--primary-text-p-color);
 }
 /* заголовок */
@@ -44,30 +63,31 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   color: var(--primary-button-text-color);
 }
 /* кнопка 1 */
 .button-one {
-  background-color: #2196f3;
+  font-family: "Roboto";
+  background-color: var(--primary-touch-color);
   color: var(--primary-button-text-color);
   cursor: pointer;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 /* .button-one:focus,
 .button-one:hover {
     background-color: #2196F3;
     color: #FFFFFF; */
 .buttons {
-  background-color: #f5f4fa;
+  background-color: var(--primary-background-color);
   cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 }
 .buttons:hover,
 .buttons:focus {
@@ -82,59 +102,82 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .text {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-p-color);
 }
 /* чим займається компанія */
 .subject {
+  color: var(--primary-text-color);
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* команда */
 .heading {
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .subtitle {
+  font-style: normal;
   font-size: 16px;
-  line-height: 19px;
-  color: #757575;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-p-color);
 }
 /* підвал-сторінки */
-.map {
+.map-googl {
+  color: var(--primary-button-text-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-.map a:hover,
-.map a:focus {
-  color: #2196f3;
+.map-googl:hover,
+.map-googl:focus {
+  color: var(--primary-touch-color);
 }
 .contakt {
   font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .contakt:hover,
 .contakt:focus {
-  color: #2196f3;
+  color: var(--primary-touch-color);
 }
 /* 2-сторінка */
 .project {
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .place {
+  color: var(--primary-text-p-color);
+  font-style: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
