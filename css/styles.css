@@ -71,7 +71,7 @@ li {
 }
 /* кнопка 1 */
 .button-one {
-  font-family: "Roboto";
+  font-family: inherit;
   background-color: var(--primary-touch-color);
   color: var(--primary-button-text-color);
   cursor: pointer;
@@ -84,19 +84,7 @@ li {
 .button-one:hover {
     background-color: #2196F3;
     color: #FFFFFF; */
-.buttons {
-  background-color: var(--primary-background-color);
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-.buttons:hover,
-.buttons:focus {
-  background-color: var(--primary-touch-color);
-  color: var(--primary-button-text-color);
-}
+
 /* особливості */
 
 .caption {
@@ -109,8 +97,6 @@ li {
 }
 
 .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -119,7 +105,6 @@ li {
 /* чим займається компанія */
 .subject {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -136,20 +121,23 @@ li {
   letter-spacing: 0.03em;
 }
 .subtitle {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-p-color);
 }
 /* підвал-сторінки */
+
+.logo-two {
+  color: var(--primary-button-text-color);
+}
 .logo-footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--primary-touch-color);
   text-decoration: none;
 }
 
@@ -177,6 +165,23 @@ li {
   color: var(--primary-touch-color);
 }
 /* 2-сторінка */
+
+/* кнопки */
+.buttons {
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--primary-touch-color);
+  color: var(--primary-button-text-color);
+}
+
+/* картинки */
 .project {
   color: var(--primary-text-color);
   font-style: normal;
@@ -187,7 +192,6 @@ li {
 }
 .place {
   color: var(--primary-text-p-color);
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
