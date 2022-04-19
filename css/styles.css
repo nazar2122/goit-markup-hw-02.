@@ -13,6 +13,9 @@ body {
 li {
   list-style: none;
 }
+.shadow {
+  font-size: 0;
+}
 /* шапка профиля */
 .logo-accent {
   color: var(--primary-touch-color);
@@ -94,9 +97,7 @@ li {
   color: var(--primary-button-text-color);
 }
 /* особливості */
-.shadow {
-  font-size: 0;
-}
+
 .caption {
   font-style: normal;
   font-weight: 700;
