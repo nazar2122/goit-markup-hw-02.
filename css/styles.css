@@ -153,6 +153,7 @@ li {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .map-googl:hover,
 .map-googl:focus {
@@ -165,6 +166,7 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .contakt:hover,
 .contakt:focus {
